@@ -1,14 +1,20 @@
-/* CSS files add styling rules to your content */
+*
 
-body {
-  font-family: helvetica, arial, sans-serif;
-  margin: 2em;
-}
-
-h1 {
+section {
   font-style: italic;
-  color: #373fff;
+  color: #fff;
 }
+{
+  margin: 0;
+  padding: 0;
+  font-family: consolas:
+}
+section
+{
+  padding: 50px;
+  background: #000;
+}
+
 ::-webkit-scrollbar
 {
 	width: 0;
@@ -36,17 +42,17 @@ h1 {
 {
 	0%,100%
 	{
-		filter:hue/rotate(0deg);
+		filter:hue-rotate(0deg);
 	}
 	50%
 	{
-		filter:hue/rotate(360deg);
+		filter:hue-rotate(360deg);
 	}
 }
 #progressbar:before
 {
 	content:'';
-	position absolute;
+	position: absolute;
 	top: 0;
 	right: 0;
 	width: 100%;
@@ -57,7 +63,7 @@ h1 {
 #progressbar:after
 {
 	content:'';
-	position absolute;
+	position: absolute;
 	top: 0;
 	right: 0;
 	width: 100%;
