@@ -18,14 +18,6 @@
     <div id="scrollPath"></div>
     <h1>Hi there!</h1>
     <section>
-<script type="text/javascript">
-	let progress = document.getElementById('progressbar');
-	let totalHeight = document.body.scrollHeight - window.innerHeight;
-	window.onscroll = function(){
-		let progressHeight = (window.pageYOffset / totalHeight) * 100;
-		progress.style.height = progressHeight + "%";
-	}
-</script>
     
     i
     i
@@ -235,5 +227,13 @@
     ietttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt
     ietttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt
       </section>
+    <script type="text/javascript">
+	let progress = document.getElementById('progressbar');
+	let totalHeight = document.body.scrollHeight - window.innerHeight;
+	window.onscroll = function(){
+		let progressHeight = (window.pageYOffset / totalHeight) * 100;
+		progress.style.height = progressHeight + "%";
+	}
+</script>
   </body>
 </html>
