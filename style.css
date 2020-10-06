@@ -30,23 +30,20 @@ nav {
 
 .social {
   display: flex;
-
-
-
 }
 
 .social li {
   display: flex;
-
-
-
+  text-decoration: none;
+  align-items: center; 
 }
 
 .social li a {
-
-
   width: 50px;
-
+  text-decoration: none;
+  align-items: center;
+  padding-bottom: 300px;
+  padding-left: 10px;
 }
 
 .landing {
@@ -94,8 +91,8 @@ nav {
     pointer-events: none;
   }
   .nav-links.open {
-    clip-path: circle(1000px at 90% -10%);
-    -webkit-clip-path: circle(1000px at 90% -10%);
+    clip-path: circle(600px at 90% -10%);
+    -webkit-clip-path: circle(600px at 90% -10%);
     pointer-events: all;
   }
   .landing {
