@@ -36,14 +36,15 @@ nav {
 .social li {
   display: flex;
   text-decoration: none;
-  align-items: center; 
+  align-items: center;
+  padding-bottom: 300px;
 }
 
 .social li a {
   width: 50px;
   text-decoration: none;
   align-items: center;
-  padding-bottom: 300px;
+
   padding-left: 10px;
 }
 
