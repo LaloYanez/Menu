@@ -28,6 +28,27 @@ nav {
   font-size: 16px;
 }
 
+.social {
+  display: flex;
+
+
+
+}
+
+.social li {
+  display: flex;
+
+
+
+}
+
+.social li a {
+
+
+  width: 50px;
+
+}
+
 .landing {
   height: 90vh;
   display: flex;
